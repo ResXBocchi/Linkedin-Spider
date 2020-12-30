@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import parameters
 from parsel import Selector
 
- driver = webdriver.Chrome(executable_path=parameters.driver_path)
+driver = webdriver.Chrome(executable_path=parameters.driver_path)
 driver.maximize_window()
 sleep(0.5)
 
