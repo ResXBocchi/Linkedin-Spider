@@ -43,7 +43,7 @@ for profile in profiles:
             sleep(1)
             driver.find_element_by_xpath('//button[@class="mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view"]').click()
             sleep(1)
-            driver.find_element_by_xpath('//div[@class="relative"]/textarea').send_keys('Olá, {}! Seu perfil foi localizado automáticamente pelos parâmetros que passei para o robo que desenvolvi com Python e Selenium! Se quiser saber mais como ele funciona, ou até mesmo usá-lo, posso te explicar! Apesar de ainda não te conhecer, espero que possamos construir um ótimo relacionamento! Abraço!'.format(driver.find_element_by_xpath('//li[@class="inline t-24 t-black t-normal break-words"]').text))
+            driver.find_element_by_xpath('//div[@class="relative"]/textarea').send_keys('Olá, {}! Seu perfil foi localizado automáticamente pelos parâmetros que passei para o robo que desenvolvi com Python e Selenium! Se quiser saber mais como ele funciona, ou até mesmo usá-lo, posso te explicar! Grande abraço!'.format(driver.find_element_by_xpath('//li[@class="inline t-24 t-black t-normal break-words"]').text))
             driver.find_element_by_xpath('//button[@class="ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view"]').click()
        
 
